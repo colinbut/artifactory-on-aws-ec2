@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "artifactory-on-aws-ec2"
+  description: infrastructure provisioning for jfrog's artifactory on aws ec2
+  tags:
+    - terraform
+spec:
+  type: infrastructure
+  owner: user:guest
+  lifecycle: production
